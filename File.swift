@@ -23,23 +23,23 @@ struct 计算 {
     
     
     enum 算法 {
-        case 加法
-        case 减法
-        case 乘法
-        case 除法
+        case jia
+        case jian
+        case cheng
+        case chu
         case 未选择
     }
     
     func 求结果(操作数:Double, 被操作数:Double) ->String {
         var 返回 = ""
         switch 当前算法 {
-        case .加法:
+        case .jia:
             返回 = "\(操作数 + 被操作数)"
-        case .减法:
+        case .jian:
             返回 = "\(操作数 - 被操作数)"
-        case .乘法:
+        case .cheng:
             返回 = "\(操作数 * 被操作数)"
-        case .除法 where 被操作数 != 0 :
+        case .chu where 被操作数 != 0 :
             返回 = "\(操作数 / 被操作数)"
                 case .未选择:
             返回 = "未选择算法！"

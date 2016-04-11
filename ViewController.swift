@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBAction func number2(sender: AnyObject) {
         点按("2")
     }
-    @IBAction func number3(sender: AnyObject) {
+       @IBAction func number3(sender: AnyObject) {
         点按("3")
     }
     @IBAction func number4(sender: AnyObject) {
@@ -59,19 +59,19 @@ class ViewController: UIViewController {
         点按(".")
     }
     @IBAction func 算法加(sender: AnyObject) {
-        计算器.设置当前算法(.加法)
+        计算器.设置当前算法(.jia)
         求值()
     }
     @IBAction func 算法减(sender: AnyObject) {
-        计算器.设置当前算法(.减法)
+        计算器.设置当前算法(.jian)
         求值()
     }
     @IBAction func 算法乘(sender: AnyObject) {
-        计算器.设置当前算法(.乘法)
+        计算器.设置当前算法(.cheng)
         求值()
     }
     @IBAction func 算法除(sender: AnyObject) {
-        计算器.设置当前算法(.除法)
+        计算器.设置当前算法(.chu)
         求值()
                 }
         func 求值() {
